@@ -18,7 +18,6 @@ namespace RegularExpression
 
             string pattern = $"{spaces}{anyword}{dot}{anyword}{at}{anyword}{dot}{com}{spaces}";
 
-
             Regex rg = new Regex(pattern);
             return rg.IsMatch(input);
         }
@@ -27,12 +26,7 @@ namespace RegularExpression
         public static IEnumerable<string> Method2(string inputJson)
         {
             Regex rg = new Regex(@"(?<="")(\w+)(?="":)");
-
-          
-            
-
-            var matchCollection = rg.Matches(inputJson);
-          
+            var matchCollection = rg.Matches(inputJson);          
 
             return matchCollection.Select((i) => i.ToString()) ;
         }
@@ -41,11 +35,7 @@ namespace RegularExpression
         public static IEnumerable<string> Method3(string inputJson)
         {
             Regex rg = new Regex(@"(?<=(:|:""))(\w+)(?=("",|,|}))");
-
-            //{"FieldString1":"field1","FieldString2":null,"_fieldString3":"_field3","FieldBool":true,"FieldInt":42}
-
             var matchCollection = rg.Matches(inputJson);
-
 
             return matchCollection.Select((i) => i.ToString());
         }
@@ -53,11 +43,8 @@ namespace RegularExpression
         // the method should return a collection of field names from the xml input
         public static IEnumerable<string> Method4(string inputXml)
         {
-            Regex rg = new Regex(@"(?<=<)(\w+)(?=(>| xsi))");
-            
-
+            Regex rg = new Regex(@"(?<=<)(\w+)(?=(>| xsi))");          
             var matchCollection = rg.Matches(inputXml);
-
 
             return matchCollection.Select((i) => i.ToString());
         }
@@ -67,10 +54,7 @@ namespace RegularExpression
         public static IEnumerable<string> Method5(string inputXml)
         {
             Regex rg = new Regex(@"(?<=>)(\w+)(?=<)");
-
-            
             var matchCollection = rg.Matches(inputXml);
-
            
             return matchCollection.Select((i) => $"{i}");
         }
@@ -82,7 +66,6 @@ namespace RegularExpression
         // numbers can be separated by symbols , | ; /
         public static IEnumerable<string> Method6(string input)
         {
-
             
             Regex subscriber = new Regex(@"\+38|\+38 |38 ");
             Regex notSinglePlus = new Regex(@"(?<!\+\d{1})");
