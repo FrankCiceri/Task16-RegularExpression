@@ -1,0 +1,12 @@
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\bin\Debug\net6.0\RegularExpression.Task.deps.json
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\bin\Debug\net6.0\RegularExpression.Task.dll
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\bin\Debug\net6.0\RegularExpression.Task.pdb
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.csproj.AssemblyReference.cache
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.AssemblyInfoInputs.cache
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.AssemblyInfo.cs
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.csproj.CoreCompileInputs.cache
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.dll
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\refint\RegularExpression.Task.dll
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\RegularExpression.Task.pdb
+D:\Bootcamp AQA\Task16-RegularExpression\RegularExpression\obj\Debug\net6.0\ref\RegularExpression.Task.dll
